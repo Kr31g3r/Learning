@@ -1,0 +1,51 @@
+#one {
+   /* border: 5px solid black; */
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+#two {
+   /* border: 5px solid red;*/
+    width: auto;
+    height: auto;
+}
+
+#three {
+    /* border: 5px solid green;*/
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+#data {
+    /* border: 5px solid blue;*/
+    width: auto;
+    height: auto;
+    text-align: left;
+}
+
+.note-item {
+    position: relative;
+    padding-right: 30px; /* Adjust as needed */
+}
+
+.delete-button {
+    position: absolute;
+    right: 34vw;
+    top: 50;
+    background-color: red; /* Optional: Add your desired styles */
+    color: white; /* Optional: Add your desired styles */
+    border: none; /* Optional: Add your desired styles */
+    cursor: pointer; /* Optional: Add your desired styles */
+}
+
+#submit {
+    width: 100px;
+}
+
+#noteForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
